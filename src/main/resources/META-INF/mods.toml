@@ -29,6 +29,6 @@ description = ""
 [[dependencies.kubejsbotanypots]]
     modId = "kubejs"
     mandatory = true
-    versionRange = "[1902.6.1-build.234,)"
+    versionRange = "[1902.6.1-build.327,)"
     ordering = "NONE"
     side = "BOTH"
