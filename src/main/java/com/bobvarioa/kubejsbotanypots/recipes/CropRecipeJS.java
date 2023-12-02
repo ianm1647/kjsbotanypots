@@ -9,7 +9,6 @@ import dev.latvian.mods.kubejs.recipe.RecipeJS;
 import dev.latvian.mods.kubejs.recipe.RecipeKey;
 import dev.latvian.mods.kubejs.recipe.component.*;
 import dev.latvian.mods.kubejs.recipe.schema.RecipeSchema;
-import dev.latvian.mods.kubejs.registry.KubeJSRegistries;
 import net.darkhax.botanypots.data.displaystate.DisplayState;
 import org.jetbrains.annotations.Nullable;
 
