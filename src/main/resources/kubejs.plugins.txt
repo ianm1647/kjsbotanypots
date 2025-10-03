@@ -1,1 +1,1 @@
-com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
+com.bobvarioa.kjsbotanypots.KJSBotanyPotsPlugin
