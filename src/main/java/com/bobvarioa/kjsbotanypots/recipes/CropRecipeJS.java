@@ -14,8 +14,8 @@ import java.util.List;
 public interface CropRecipeJS {
     RecipeKey<Ingredient> INPUT = IngredientComponent.INGREDIENT.key("input", ComponentRole.INPUT);
     RecipeKey<Ingredient> SOIL = IngredientComponent.INGREDIENT.key("soil", ComponentRole.INPUT);
-    RecipeKey<List<Display>> DISPLAY = BotanyComponents.DISPLAY.asListOrSelf().key("display", ComponentRole.OTHER);
-    RecipeKey<List<ItemDropProvider>> DROPS = BotanyComponents.DROP.asList().key("drops", ComponentRole.OUTPUT);
+    RecipeKey<List<Display>> DISPLAY = BotanyComponents.DISPLAY.instance().asListOrSelf().key("display", ComponentRole.OTHER);
+    RecipeKey<List<ItemDropProvider>> DROPS = BotanyComponents.DROP.instance().asList().key("drops", ComponentRole.OUTPUT);
     RecipeKey<Long> GROWTH_TIME = NumberComponent.LONG.key("grow_time", ComponentRole.OTHER);
     RecipeKey<Float> YIELD = NumberComponent.FLOAT.key("yield", ComponentRole.OTHER).optional(0.0f);
 

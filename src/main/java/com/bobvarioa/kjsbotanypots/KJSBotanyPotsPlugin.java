@@ -5,7 +5,7 @@ import com.bobvarioa.kjsbotanypots.recipes.CropRecipeJS;
 import com.bobvarioa.kjsbotanypots.recipes.FertilizerRecipeJS;
 import com.bobvarioa.kjsbotanypots.recipes.SoilRecipeJS;
 import dev.latvian.mods.kubejs.plugin.KubeJSPlugin;
-import dev.latvian.mods.kubejs.recipe.schema.RecipeComponentFactoryRegistry;
+import dev.latvian.mods.kubejs.recipe.component.RecipeComponentTypeRegistry;
 import dev.latvian.mods.kubejs.recipe.schema.RecipeSchemaRegistry;
 import dev.latvian.mods.kubejs.script.BindingRegistry;
 import net.darkhax.botanypots.common.api.data.display.types.Display;
@@ -43,7 +43,7 @@ public class KJSBotanyPotsPlugin implements KubeJSPlugin {
     }
 
     @Override
-    public void registerRecipeComponents(RecipeComponentFactoryRegistry registry) {
+    public void registerRecipeComponents(RecipeComponentTypeRegistry registry) {
         registry.register(BotanyComponents.DISPLAY);
         registry.register(BotanyComponents.GROWTH);
         registry.register(BotanyComponents.DROP);

@@ -116,6 +116,7 @@ dependencies {
     implementation "dev.latvian.mods:rhino:$rhino_version"
     implementation "dev.architectury:architectury-neoforge:$architectury_version"
 
+    implementation "curse.maven:jei-238222:7129287"
 
     implementation "curse.maven:botanypots-353928:$botanypots_version"
     implementation "curse.maven:bookshelf-228525:$bookshelf_version"
